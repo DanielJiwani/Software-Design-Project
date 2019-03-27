@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import AppBar from 'material-ui/AppBar';
-import { List, ListItem } from 'material-ui/List';
 import RaisedButton from 'material-ui/RaisedButton';
 
 export class FuelQuoteHistory extends Component {
@@ -40,7 +39,7 @@ export class FuelQuoteHistory extends Component {
                 <td>{address1} {address2} {city}, {state} {zipcode}</td>
                 <td>{deliverydate}</td>
                 <td>{suggestedprice}Needs to be calculated form pricing module</td>
-                <td>{total} Nees to be calculates by gallons * suggestedprice</td>
+                <td>{total} Need to be calculates by gallons * suggestedprice</td>
               </tr>
             </table>
             <RaisedButton
